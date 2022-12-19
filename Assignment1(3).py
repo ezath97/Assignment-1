@@ -1,5 +1,10 @@
-Series = (1,2,3,4,5,6,7,8,9,10)
+Start=int(input("Enter Start Value: "))
+End=int(input("Enter End Value: "))
+Step=int(input("Enter Step Value: "))
+
+Series = tuple(range(Start,End,Step))
 print ("Series of Numbers : ",Series)
+
 even_num = 0
 odd_num = 0
 x = 0  
